@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">pertemuan5</string>
+    <string name="register">REGISTER</string>
+    <string name="masukan_username">Masukan username</string>
+    <string name="masukan_email">Masukan email</string>
+    <string name="masukan_nomor_telpon">Masukan nomor telpon</string>
+    <string name="masukan_password">Masukan password</string>
+    <string name="by_checking_the_box_you_agree_to_our_terms_and_conditions">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="registerr">REGISTER</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="login">Login</string>
+    <string name="loginn">LOGIN</string>
+    <string name="masukan_username_email">Masukan username/ email</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dont_have_account">Dont have account ?</string>
+    <string name="homepage">HOMEPAGE</string>
+    <string name="welcome_username">Welcome Username !</string>
+    <string name="your_email_has_been_activated">Your email has been activated</string>
+    <string name="your_phone_has_been_registered">Your phone has been registered</string>
+</resources>

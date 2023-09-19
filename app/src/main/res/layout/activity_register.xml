@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardview_dark_background"
+    tools:context=".RegisterActivity"
+    android:layout_gravity="center"
+    android:id="@+id/body">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:backgroundTint="@color/semi_white"
+        android:layout_centerVertical="true"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textAlignment="center"
+                android:textSize="@dimen/_25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginTop="30dp"
+                />
+
+            <EditText
+                android:id="@+id/edt_username"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:hint="@string/masukan_username"
+                android:paddingLeft="20dp"
+                />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:hint="@string/masukan_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                />
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:hint="@string/masukan_nomor_telpon"
+                android:paddingLeft="20dp"
+                android:inputType="number"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/light_grey"
+                android:hint="@string/masukan_password"
+                android:paddingLeft="20dp"
+                android:inputType="textPassword"
+                />
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="9dp"
+                >
+                <CheckBox
+                    android:id="@+id/acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foregroundTint="@color/black"
+                    android:buttonTint="@color/black"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/by_checking_the_box_you_agree_to_our_terms_and_conditions"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/toHomepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/registerr"
+                android:background="@color/purple_500"
+                android:layout_marginHorizontal="30dp"
+                android:textColor="@color/semi_white"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/already_have_an_account"
+                    android:textSize="12sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/to_login"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:textSize="12sp"
+                    android:textColor="@color/biru"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
